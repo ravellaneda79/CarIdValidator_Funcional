@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CardIdValidator_F", "CardIdValidator_F\CardIdValidator_F.fsproj", "{54A01203-B488-47F3-8D19-02F791DBC205}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CardIdValidator_F_Tests", "CardIdValidator_F_Tests\CardIdValidator_F_Tests.fsproj", "{92D43C92-D199-4A06-9D04-91CE4BD0CD02}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54A01203-B488-47F3-8D19-02F791DBC205} = {54A01203-B488-47F3-8D19-02F791DBC205}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A01203-B488-47F3-8D19-02F791DBC205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A01203-B488-47F3-8D19-02F791DBC205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A01203-B488-47F3-8D19-02F791DBC205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A01203-B488-47F3-8D19-02F791DBC205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D43C92-D199-4A06-9D04-91CE4BD0CD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D43C92-D199-4A06-9D04-91CE4BD0CD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D43C92-D199-4A06-9D04-91CE4BD0CD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D43C92-D199-4A06-9D04-91CE4BD0CD02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6748B3C3-17EE-4B84-9267-156C2433416A}
+	EndGlobalSection
+EndGlobal
